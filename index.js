@@ -69,3 +69,9 @@ function calculateEllipseArea(){
     const areaToDecimale = area.toFixed(2)
     setElementText("ellips-area", areaToDecimale)
 }
+
+// function clicked(){
+//     const btn = document.getElementById("click")
+// let income = document.getElementById("income")
+// console.log(income.value);
+// }
