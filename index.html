@@ -24,14 +24,17 @@
                         <h2 class="card-title">Triangle</h2>
                         <p>Area (A) = 0.5 x b x h</p>
                         <p>
-                            <input type="text" placeholder="base" class="ml-4 bg-gray-100 w-[95px] border px-2 text-xl" id="triangle-base">
+                            <input type="text" placeholder="base" class="ml-4 bg-gray-100 w-[95px] border px-2 text-xl"
+                                id="triangle-base">
                             <span class="ml-2">Cm</span>
-                            <input  type="text" placeholder="Height" class="bg-gray-100 w-[95px] border px-2 text-xl" id="triangle-height">
+                            <input type="text" placeholder="Height" class="bg-gray-100 w-[95px] border px-2 text-xl"
+                                id="triangle-height">
                             <span class="ml-2">Cm</span>
                         </p>
                         <p class="text-xl">Area: <span id="triangle-area"></span></p>
                         <div class="card-actions justify-center">
-                            <button onclick="calculateTriangleArea()" class="btn btn-primary w-full mt-3" id="triangle-id">Calculate</button>
+                            <button onclick="calculateTriangleArea()" class="btn btn-primary w-full mt-3"
+                                id="triangle-id">Calculate</button>
                         </div>
                     </div>
                 </div>
@@ -42,20 +45,23 @@
                         <h2 class="card-title">Rectangle</h2>
                         <p>Area (A) = W x I</p>
                         <p>
-                            <input type="text" placeholder="Width" class="w-[95px] border px-2 text-xl" id="rectangle-width">
+                            <input type="text" placeholder="Width" class="w-[95px] border px-2 text-xl"
+                                id="rectangle-width">
                             <span class="ml-3">Cm</span>
-                            <input type="text" placeholder="Length" class="w-[95px] border px-2 text-xl" id="rectangle-length">
+                            <input type="text" placeholder="Length" class="w-[95px] border px-2 text-xl"
+                                id="rectangle-length">
                             <span class="ml-3">Cm</span>
                         </p>
                         <p>Area : <span id="Area-span"></span></p>
                         <div class="card-actions ">
-                            <button onclick="calculateRectangleArea()" class="btn btn-primary w-full mt-3">Calculate</button>
+                            <button onclick="calculateRectangleArea()"
+                                class="btn btn-primary w-full mt-3">Calculate</button>
                         </div>
                     </div>
                 </div>
                 <!-- Parallelogram card -->
-                <div class="card w-96 bg-base-100 shadow-xl">
-                    <figure><img src="/images/pentagon.png" alt="Parallelogram" /></figure>
+                <!-- <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="/images/parallelogram.png" alt="Parallelogram" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">Parallelogram</h2>
                         <p>Area (A) = b x h</p>
@@ -70,7 +76,51 @@
                             <button onclick="calculateParallelogramArea()" class="btn btn-primary w-full mt-3">Calculate</button>
                         </div>
                     </div>
+                </div> -->
+                <!-- peralleloGram -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="/images/parallelogram.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Parallelogram</h2>
+                        <p>Area (A) = B x H</p>
+                        <p>
+                            <input type="text" placeholder="base" class="w-[95px] border px-2 text-xl"
+                                id="perallelogram-base">
+                            <span class="ml-3">Cm</span>
+                            <input type="text" placeholder="Height" class="w-[95px] border px-2 text-xl"
+                                id="parallelogram-height">
+                            <span class="ml-3">Cm</span>
+                        </p>
+                        <p>Area : <span id="parallelogram-area">cm<sup>2</sup></span></p>
+                        <div class="card-actions ">
+                            <button onclick="calculateParallelogramArea()"
+                                class="btn btn-primary w-full mt-3">Calculate</button>
+                        </div>
+                    </div>
                 </div>
+                <!-- Ellipse -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="/images/ellipse.png" alt="Ellipse" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Ellipse</h2>
+                        <p>Area (A) = πAb</p>
+                        <p>
+                            <input type="text" placeholder="ellipse-first" class="w-[95px] border px-2 text-xl"
+                                id="ellipse-major-redious">
+                            <span class="ml-3">Cm</span>
+                            <input type="text" placeholder="ellipse-first" class="w-[95px] border px-2 text-xl"
+                                id="ellipse-minor-redious">
+                            <span class="ml-3">Cm</span>
+                        </p>
+                        <p>Area : <span id="ellips-area">cm<sup>2</sup></span></p>
+                        <div class="card-actions ">
+                            <button onclick="calculateEllipseArea()"
+                                class="btn btn-primary w-full mt-3">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
             <!-- Area container -->
             <div class="w-[400px]">
