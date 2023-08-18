@@ -66,5 +66,6 @@ function calculateEllipseArea(){
     const majorRedious = getInputValue("ellipse-major-redious")
     const minorRedious = getInputValue("ellipse-minor-redious")
     const area = 3.1415 * majorRedious * minorRedious;
-    setElementText("ellips-area", area)
+    const areaToDecimale = area.toFixed(2)
+    setElementText("ellips-area", areaToDecimale)
 }
